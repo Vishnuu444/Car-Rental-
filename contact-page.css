@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    background: url(https://www.rxwallpaper.site/wp-content/uploads/776-race-car-hd-wallpapers-background-images-wallpaper-abyss-800x800.jpg);
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    background-position: center;
+    background-size: cover ;
+}
+.box-area{
+    width: 570px;
+    height: 661px;
+    position: relative;
+    background: rgb(187, 5, 5);
+    border-radius: 9px;
+    margin-left:32%;
+    margin-top: -2%;
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(237, 241, 242);
+}
+.input-head{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.input{
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    border-radius: 8px;
+    border-color: rgb(136, 4, 9);
+}
+.input-ques{
+    height: 200px;
+    width: 500px;
+    margin-left: 10px;
+}
+.submit-btn{
+    width:80%;
+    padding:10px 30px;
+    cursor:pointer;
+    display: block;
+    margin:auto;
+    background: linear-gradient(to right, rgb(82, 245, 245), rgb(14, 93, 251));
+    border-radius: 17px;
+    border: none;
+    margin-top: 100px;
+}
+.logo-pic {
+    margin: 30px auto;
+    text-align: left;
+}
+.logo-pic img {
+    width: 88px;
+    margin: -29px 2px;
+    cursor: pointer;
+    border-radius: 8%;
+}

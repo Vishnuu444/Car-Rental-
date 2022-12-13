@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.heading{
+    text-align: center;
+    color: rgb(74, 71, 78);
+    text-shadow: 2px 2px 8px rgb(226, 119, 43);
+}
+.logo-pic {
+    margin: 30px auto;
+    text-align: left;
+}
+.logo-pic img {
+    width: 88px;
+    margin: -29px 2px;
+    cursor: pointer;
+    border-radius: 8%;
+}
+.img-1{
+    margin: 30px auto;
+    text-align: left
+}
+.img-1 img{
+    margin-top: 32px;
+    margin-left: 96px;
+    margin-right: 133px;
+    margin-bottom: -83px;
+    width: 310px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.img-2{
+    margin: 30px auto;
+    text-align: left
+}
+.img-2 img{
+    margin-top: -183px;
+    margin-left: 35%;
+    margin-right: -26px;
+    margin-bottom: -39px;
+    width: 413px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.img-3{
+    margin: 30px auto;
+    text-align: left
+}
+.img-3 img{
+    margin-top: -260px;
+    margin-left: 69%;
+    margin-right: 15px;
+    margin-bottom: 13px;
+    width: 399px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.img-4{
+    margin: 30px auto;
+    text-align: left
+}
+.img-4 img{
+    margin-top: -3px;
+    margin-left: 91px;
+    margin-right: 100px;
+    margin-bottom: 73px;
+    width: 316px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.img-5{
+    margin: 30px auto;
+    text-align: left
+}
+.img-5 img{
+    margin-top: -343px;
+    margin-left: 35%;
+    margin-right: 112px;
+    margin-bottom: 125px;
+    width: 430px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.img-6{
+    margin: 30px auto;
+    text-align: left
+}
+.img-6 img{
+    margin-top: -26%;
+    margin-left: 69%;
+    margin-right: 73px;
+    margin-bottom: 164px;
+    width: 384px;
+    cursor: pointer;
+    border-radius: 12px;
+}    

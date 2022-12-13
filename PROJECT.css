@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.back-logo {
+    margin: 30px auto;
+    text-align: left;
+}
+.back-logo img {
+    width: 88px;
+    margin: -29px 2px;
+    cursor: pointer;
+    border-radius: 8%;
+}
+.header {
+    background-image: url("https://www.freeiconspng.com/uploads/land-rover-range-rover-car-png-25.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.navigation ul {
+    left: 832px;
+    margin: -68px;
+    padding: 0%;
+    position: relative;
+    font-size: 33px;
+}
+.navi li {
+    display: inline-block;
+    margin: 0 -4px;
+}
+.navi a {
+    background: linear-gradient(#140228, #084a02);
+    color: rgb(250, 248, 248);
+    padding: 11px 22px;
+    text-decoration: none;
+}
+.navi li:first-child a {
+    border-radius: 4px 0 0 4px;
+}
+.navi li:last-child a {
+    border-radius: 0 4px 4px 0;
+}
+.box {
+    left: 856px;
+    width: 500px;
+    height: 550px;
+    position: relative;
+    background: linear-gradient(to left, rgb(217, 106, 96), rgb(237, 112, 45));
+    margin: 9%;
+    padding: 5px;
+    border-radius: 9px;
+}
+.heading {
+    color: rgb(15, 224, 213);
+    text-align: center;
+    text-shadow: 2px 10px 4px rgb(14, 5, 5);
+}
+.input-location {
+    padding: 4px;
+    background: transparent;
+    width: 300px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border-color: rgb(11, 11, 11);
+}
+.pickup {
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.pick-up {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.pickup-time {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.pickuptime{
+    color: rgb(68, 56, 4);
+    font-size: 25px;
+}
+.submit-btn{
+    width:80%;
+    padding:10px 30px;
+    cursor:pointer;
+    display: block;
+    margin:auto;
+    background: linear-gradient(to right, rgb(16, 18, 169), rgb(247, 245, 247));
+    border-radius: 17px;
+    border: none;
+    margin-top: 100px;
+}

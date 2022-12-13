@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="fair.css">
+    <title>document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <a href="home.html"><img src="https://th.bing.com/th/id/R.9c24140cfa495f87c64c108ba99afca6?rik=VEm9I7ILsHGFCQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_275397.png&ehk=%2bvcKBxBwyZpFYrE7UFNbiEA9ljg1reFdfqMHCW0GfTw%3d&risl=&pid=ImgRaw&r=0" alt=""></a>
+        </div>
+        <div class="heading">
+            <h1 class="head-text">Rent Fair</h1>
+        </div>
+        <div class="box">
+            <form onsubmit="return(valid());">
+                <br><br><span class="input-text">Number of Days: </span><input type="number" placeholder="Days" id="d1"
+                    class="input-box">
+                <span class="input-text">Select Car: </span><select id="c1" class="input-box2">
+                    <option value="-1" selected>Choose your Car</option>
+                    <option value="1">Scapio</option>
+                    <option value="2">Endeavour</option>
+                    <option value="3">Verna</option>
+                    <option value="4">Fortuner</option>
+                    <option value="5">Creata</option>
+                    <option value="6">Land Rover</option>
+                </select><br><br><br>
+                <span class="input-text">Delivery Location: </span><input type="text" id="d2" class="input-box3"
+placeholder="Enter Delivery Location"><br><br><br>
+                <span class="input-text">Delivery Date: </span><input type="date" id="d3" class="input-box2"><br><br><br>
+                <span class="input-text">Return Location: </span><input type="text" id="d4" class="input-box3" placeholder="Enter
+Return Location"><br><br><br>
+                <span class="input-text">Return Date: </span><input type="date" id="d5" class="input-box2"><br><br><br>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function valid() {
+            var x, y, z, a;
+            x = document.getElementById("d2").value;
+            y = document.getElementById("d4").value;
+            a = document.getElementById("d1").value;
+            if (document.getElementById("d1").value == "") {
+                alert("Please enter number of days!");
+                document.getElementById("d1").focus();
+                return false;
+            }
+            if (document.getElementById("d2").value == "") {
+                alert("Please enter delivery location!");
+                document.getElementById("d1").focus();
+                return false;
+            }
+            if (document.getElementById("d4").value == "") {
+                alert("Please enter return location!");
+                document.getElementById("d1").focus();
+                return false;
+            }
+            if (document.getElementById("c1").value == "-1") {
+                alert("Choose any company !");
+                document.getElementById("d1").focus();
+                return false;
+            }
+            z = 2500 * a;
+                alert("Estimated fare from " + x + " to " + y + " is ₹ " + z);
+
+}
+    </script>
+</body>
+</html>
